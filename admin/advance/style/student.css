@@ -1,0 +1,23 @@
+body {
+    background: #40508b;
+}
+.student_block, .date_block, .ip_block {
+    padding: 50px;
+    margin: 50px;
+    background: rgba(255,255,255,0.5);
+    font-size: 30px;
+    color: #fdffa7;
+    transition: all 0.5s;
+    display: inline-block;
+    text-align: center;
+}
+.student_block:hover, .date_block:hover, .ip_block:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.seat_number, .name, .cnt {
+    font-size: 90px;
+    line-height: 100px;
+    font-weight: bolder;
+}

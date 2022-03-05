@@ -1,0 +1,18 @@
+.back {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-image: url("../image/back.png");
+    background-size: 75px;
+    width: 75px;
+    height: 75px;
+    margin: 20px;
+    opacity: 50%;
+    transition: all 0.5s;
+}
+.back:hover {
+    opacity: 100%;
+    transition: all 0.5s;
+    transform: scale(1.2);
+    cursor: pointer;
+}

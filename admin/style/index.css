@@ -1,0 +1,24 @@
+body {
+    background: #40508b;
+}
+
+.block {
+    padding: 6%;
+    margin: 3%;
+    background: rgba(255,255,255,0.5);
+    font-size: 40px;
+    color: #fdffa7;
+    transition: all 0.5s;
+    display: inline-block
+}
+
+.block:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.line {
+    text-align: center;
+    margin: 2%;
+}
